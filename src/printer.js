@@ -58,6 +58,8 @@ function getPrintFunction(options) {
       return require("./printer-htmlparser2");
     case "postcss":
       return require("./printer-postcss");
+    case "python":
+      return require("./printer-python");
     default:
       return genericPrintNoParens;
   }

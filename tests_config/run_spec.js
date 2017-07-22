@@ -19,7 +19,8 @@ function run_spec(dirname, options, additionalParsers) {
     if (
       extname(filename) !== ".snap" &&
       fs.lstatSync(path).isFile() &&
-      filename !== "jsfmt.spec.js"
+      filename !== "jsfmt.spec.js" &&
+      !filename.endsWith(".skip")
     ) {
       let rangeStart = 0;
       let rangeEnd = Infinity;

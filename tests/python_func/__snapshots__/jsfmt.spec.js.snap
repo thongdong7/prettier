@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`args_default_func.py 1`] = `
+def   abc(a , b , c, d=1,e=2,f=[]):
+
+    pass~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def abc(a, b, c, d=1, e=2, f=[]):
+    pass
+`;
+
+exports[`args_func.py 1`] = `
+def   abc(a , b , c):
+
+    pass~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def abc(a, b, c):
+    pass
+`;
+
+exports[`args_kwargs_func.py 1`] = `
+def   abc(a , b , c, **kwargs):
+
+    pass~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def abc(a, b, c, **kwargs):
+    pass
+`;
+
+exports[`simplest_func.py 1`] = `
+def   abc():
+
+    pass~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def abc():
+    pass
+`;
